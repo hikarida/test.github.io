@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+a, a:hover{
+    text-decoration: none;
+    color: #fff;
+}
+
+ul{
+    list-style: none;
+}
+
+.header{
+    width: 100%;
+    height: 30vh;
+}
+
+.header li{
+    display: inline-block;
+}
+
+.header .nav{
+    width: 90%;
+    height: 80px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 50px;
+}
+
+.header .nav .logo{
+    margin-left: 0px;
+}
+
+.header .nav .menu ul li{
+    margin-right: 30px;
+}
+
+.header .nav .menu ul li a{
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    padding: 10px;
+    border-radius: 4px;
+    text-transform: capitalize;
+    transition: all 0.5s;
+    opacity: 0.6;
+}
+
+.header .nav .menu ul li a.active{
+    opacity: 1;
+}
+
+.header .nav .menu ul li a:hover{
+    opacity: 1;
+}
+
+.header .nav .social-media{
+    display: flex;
+    justify-content: center;
+}
+
+.header .nav .social-media ul li i{
+    color: black;
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    margin-right: 5px;
+    border-radius: 50px;
+    text-align: center;
+    align-items: center;
+    font-size: 19px;
+    background-color: #fff;
+    transition: all 0.3s ease-in-out;
+}
+
+.header .nav .social-media ul li i:hover{
+    background-color: rgb(255, 0, 0);
+}
+
+h2{
+    text-align: center;
+    align-items: center;
+    text-transform: capitalize;
+    height: 3vh;
+    font-size: 35px;
+    font-weight: 500;
+    font-family: impact;
+}
+
+.content{
+    width: 100%;
+}
+
+.content .cars{
+    display: flex;
+    justify-content: center;
+    padding-top: 40px;
+}
+
+.content .cars ul li{
+    width: 400px;
+    height: 45px;
+    margin-top: 8px;
+    margin-right: 15px;
+    margin-left: 15px;
+    line-height: 45px;
+    letter-spacing: 1px;
+    font-size: 14px;
+    font-weight: 600;
+    border-radius: 40px;
+    background-color: #fff;
+    
+}
+
+.content .cars ul li a{
+    color: black;
+    margin: 0;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    transition: all 0.3s ease-in-out;
+}
+
+.content .cars ul li a:hover{
+    background-color: rgb(209, 203, 203);
+    border-radius: 200px;
+}
+
+body{
+    background-image: url("bg.png.webp");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+	background-size:100%;
+}
